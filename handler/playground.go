@@ -21,6 +21,27 @@ var page = template.Must(template.New("graphiql").Parse(`<!DOCTYPE html>
 	html { font-family: "Open Sans", sans-serif; overflow: hidden; }
 	body { margin: 0; background: #172a3a; }
 </style>
+<a
+    style="
+    	position: absolute;
+    	z-index: 9999;
+    	margin-left: 82vw;
+    	margin-right: 32px;
+    	margin-top: 22px;
+    	font-family: 'Arial';
+    	font-style: normal;
+    	font-weight: bold;
+    	font-size: 12px;
+    	line-height: 14px;
+    	color: #4b5660;
+	"
+    target="_blank"
+    rel="noreferrer"
+    href="https://www.ntucenterprise.sg/contactus/vulnerability-disclosure-programme"
+    alt="Vulnerability Disclosure Programme"
+>
+    Vulnerability Disclosure Programme
+</a>
 <div id="root"/>
 <script type="text/javascript">
 	window.addEventListener('load', function (event) {
